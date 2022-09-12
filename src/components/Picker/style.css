@@ -1,0 +1,68 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-style: italic;
+}
+
+.picker_info {
+  display: flex;
+  font-size: 30px;
+  margin: 5px 0 0 10px;
+}
+
+.picker_title {
+  margin-right: 10px;
+}
+
+.picker_buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 10px 65px 10px 0;
+}
+
+.prev_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 30px;
+  background: #f1c8b5;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.today_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 30px;
+  background: #f1c8b5;
+  border: none;
+  border-radius: 3px;
+  margin: 0 5px 0 5px;
+  cursor: pointer;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.next_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 30px;
+  background: #f1c8b5;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-style: italic;
+  font-weight: 600;
+}

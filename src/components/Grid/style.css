@@ -1,0 +1,84 @@
+.container_grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container_grid_element {
+  display: flex;
+  border: 1px solid #777256;
+  color: black;
+}
+
+.week_cells {
+  min-width: 152px;
+  min-height: 60px;
+  background-color: #512113a3;
+  border: 1px solid #777256;
+}
+
+.month_disable {
+  color: gray;
+}
+
+.week_day {
+  font-weight: 700;
+  font-style: italic;
+  margin-left: 10px;
+}
+
+.background_brown {
+  background-color: #593322;
+  min-width: 150px;
+  min-height: 120px;
+}
+
+.background_milky {
+  background-color: #dfad98;
+  min-width: 150px;
+  min-height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cell_header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cell_header button {
+  margin: 10px 5px 5px 0;
+  border: none;
+  background: #ffdccc;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.date {
+  margin: 5px 10px;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.current_day {
+  background-color: #cb6344;
+  min-width: 150px;
+  min-height: 130px;
+}
+
+.form li {
+  width: 140px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  list-style-type: none;
+  margin: 3px 5px 5px 5px;
+  background: #9a6350;
+  padding-left: 5px;
+  color: #f6f1d6;
+}
